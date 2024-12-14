@@ -62,7 +62,7 @@ int main() {
     InitWindow(800, 450, "FFMPEG + Raylib");
     SetTargetFPS(60);
 
-    unsigned int frame_size = frame_width * frame_height * 4; // RGBA: 4 bytes per pixel
+    size_t frame_size = frame_width * frame_height * 4; // RGBA: 4 bytes per pixel
 
     // Buffer to hold a frame
     uint8_t *frame = MemAlloc(frame_size);
