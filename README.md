@@ -7,6 +7,12 @@ A simple example showcasing how to use FFmpeg (the executable) with Raylib to re
 If you find this example useful, consider buying me a beer! 🍺
 https://paypal.me/andreafontana/5
 
+## Build
+
+To compile the project:
+- C version: simply run `make` in the project directory
+- D version: run `dub --single main.d` in the project directory
+
 ## Description
 
 This project demonstrates how to integrate FFmpeg (via command line) with Raylib to:
