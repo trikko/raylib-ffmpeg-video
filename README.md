@@ -16,6 +16,8 @@ This project demonstrates how to integrate FFmpeg (via command line) with Raylib
 
 Since it leverages FFmpeg's extensive codec support, this solution can play almost any video format, even rare or exotic ones that FFmpeg can read.
 
+In this example the video is streamed from Wikipedia, but FFmpeg can read content from any supported source (local files, HTTP, RTSP, UDP, etc.).
+
 ## Controls
 
 - **Mouse**: Drag video around the window
