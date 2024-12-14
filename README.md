@@ -4,6 +4,9 @@
 
 A simple example showcasing how to use FFmpeg (the executable) with Raylib to render audio and video content.
 
+If you find this example useful, consider buying me a beer! 🍺
+https://paypal.me/andreafontana/5
+
 ## Description
 
 This project demonstrates how to integrate FFmpeg (via command line) with Raylib to:
@@ -26,8 +29,3 @@ Since it leverages FFmpeg's extensive codec support, this solution can play almo
 ## Note
 
 This example uses FFmpeg as an external executable and not the native libraries (libavcodec, libavformat, etc.). This approach greatly simplifies the implementation while maintaining good performance for basic use cases.
-
----
-
-If you find this example useful, consider buying me a beer! 🍺
-https://paypal.me/andreafontana/5
